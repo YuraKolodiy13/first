@@ -1,0 +1,68 @@
+nav{
+    background-color: #F7F7F9;
+    padding: 0 15px;
+}
+.navbar{
+    padding: 15px 0;
+    float: left;
+}
+.navbar p{
+    font:14px Arial;
+    color: black;
+    display: inline;
+}
+.navbar a{
+    text-decoration: none;
+    color: gray;
+    padding-left: 15px;
+}
+a:active{
+    color: black;
+}
+.button{
+    color: green;
+    border: 1px solid green;
+    background-color: #F7F7F9;
+    border-radius: 3px;
+    padding: 9px 14px;
+    font: 12px Arial;
+    margin-left: 3px;
+}
+.search input{
+    border-radius: 3px;
+    padding: 9px 14px;
+    font: 12px Arial;
+    float: right;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+.clear{
+    clear: both;
+}
+.wrapper{
+    margin: 18px 150px 35px 150px;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: #ECEEEF;
+    margin-top: 18px;
+    padding: 64px 58px 70px 30px;
+}
+header input{
+    background-color: #0275D8;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+header h1{
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+header span{
+    background-color: white;
+    color:#C6646E;
+}
+header p{
+    color: #394553;
+}
