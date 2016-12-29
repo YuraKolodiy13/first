@@ -7,14 +7,15 @@ nav{
     float: left;
 }
 nav p{
-    font:14px Arial;
+    font:15px Arial;
     color: #21201F;
     display: inline;
 }
 nav a{
     text-decoration: none;
-    color: #C4C4C1;
+    color: #7b7b7c;
     padding-left: 15px;
+    font-size: 14px;
 }
 a:active{
     color: #21201F;
@@ -48,16 +49,20 @@ a:active{
     margin-top: 18px;
     padding: 64px 58px 70px 30px;
 }
-.content input{
+.content a{
+    text-decoration: none;
     background-color: #0275D8;
     color: white;
     padding: 15px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 16px;
+    margin-top: 5px;
+    display: inline-block;
 }
 .content h1{
     font-family: Arial, sans-serif;
     margin-bottom: 10px;
+    color: #373a3c;
 }
 .content span{
     background-color: white;
@@ -65,6 +70,6 @@ a:active{
     padding: 3px 5px;
 }
 .content p{
-    color: #727475;
+    color: #373a3c;
     font-size: 14px;
 }
