@@ -1,27 +1,27 @@
-nav{
+header{
     background-color: #F7F7F9;
     padding: 0 15px;
 }
-.navbar{
+nav{
     padding: 15px 0;
     float: left;
 }
-.navbar p{
+nav p{
     font:14px Arial;
-    color: black;
+    color: #21201F;
     display: inline;
 }
-.navbar a{
+nav a{
     text-decoration: none;
-    color: gray;
+    color: #C4C4C1;
     padding-left: 15px;
 }
 a:active{
-    color: black;
+    color: #21201F;
 }
 .button{
-    color: green;
-    border: 1px solid green;
+    color: #AAD8AB;
+    border: 1px solid #AAD8AB;
     background-color: #F7F7F9;
     border-radius: 3px;
     padding: 9px 14px;
@@ -43,26 +43,28 @@ a:active{
     margin: 18px 150px 35px 150px;
     font-family: Arial, sans-serif;
 }
-header{
+.content{
     background-color: #ECEEEF;
     margin-top: 18px;
     padding: 64px 58px 70px 30px;
 }
-header input{
+.content input{
     background-color: #0275D8;
     color: white;
     padding: 15px 20px;
     border-radius: 10px;
     font-size: 16px;
 }
-header h1{
+.content h1{
     font-family: Arial, sans-serif;
     margin-bottom: 10px;
 }
-header span{
+.content span{
     background-color: white;
     color:#C6646E;
+    padding: 3px 5px;
 }
-header p{
-    color: #394553;
+.content p{
+    color: #727475;
+    font-size: 14px;
 }
